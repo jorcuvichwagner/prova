@@ -1,0 +1,65 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+nav {
+    background-color: #007bff; /* Cor de fundo da barra de navegação */
+    padding: 10px; /* Espaçamento interno */
+}
+
+nav ul {
+    list-style-type: none; /* Remove a lista padrão */
+    display: flex; /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+main {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+}
+
+.image-table {
+    width: 100%; /* Largura total da tabela */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    margin-top: 20px; /* Espaçamento acima da tabela */
+}
+
+.image-table td {
+    padding: 10px; /* Espaçamento interno nas células */
+    border: 1px solid #ddd; /* Borda das células */
+    text-align: center; /* Centraliza o conteúdo das células */
+}
+
+.image-table img {
+    width: 100%; /* Ajusta a largura de cada imagem para preencher a célula */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Adiciona separação visual entre as linhas */
+.image-table tr + tr {
+    border-top: 2px solid #007bff; /* Linha separadora entre as linhas da tabela */
+}
